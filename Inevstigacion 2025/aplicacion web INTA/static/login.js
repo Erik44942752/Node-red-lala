@@ -5,6 +5,8 @@ function validarInicioSesion() {
     if (nombre === '' || contraseña === '') {
         alert('Por favor, complete todos los campos.');
     } else {
-        alert('campos llenos');
+        alert('Campos llenos, redirigiendo...');
+        // Redirigir a la página principal
+        window.location.href = 'pagina_principal.html';  // Aquí colocas la ruta correcta a tu página principal
     }
 }
