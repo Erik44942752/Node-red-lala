@@ -48,10 +48,14 @@
                             <input type="password" required>
                         </div>
                         <!-- enlace directo de lala-->
-                        <button onclick="location.href='pagina_principal.html';" class="btn-inicio-sesion">Iniciar sesión</button>
+                        <!--button onclick="location.href='pagina_principal.html';" class="btn-inicio-sesion">Iniciar sesión</button-->
                         
                         <!-- boton de rellenar campo del belicho-->
                         <!--button type="submit" class="btn-inicio-sesion">Iniciar sesión</ªbutton-->
+
+                        <button onclick="validarInicioSesion()" class="btn-inicio-sesion">Iniciar sesión</button>
+
+                        
 
                         
                         <a href="#"><small>¿No tienes cuenta? Crea una aquí</small></a>
@@ -62,6 +66,7 @@
             
         </main>
     </div>
+    <script src="login.js"></script>
     <script type="module" src="../src/render/scripts.js"></script>
 </body>
 </html>
