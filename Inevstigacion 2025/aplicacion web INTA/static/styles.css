@@ -665,11 +665,20 @@ input:checked + .slider:before {
   animation: slideInLeft 3s ease-out forwards;
 }
 
-.contenedor-principal {
+/*.contenedor-principal {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}*/
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
+  align-items: center;    /* Centra los elementos horizontalmente */
+  justify-content: center; /* Alinea los elementos verticalmente en el centro */
+  height: 100vh;           /* Altura del contenedor */
+  gap: 30px;              /* Espacio entre los botones */
 }
 
 .menu-cubo {
@@ -691,4 +700,16 @@ input:checked + .slider:before {
 
 .boton:hover {
   transform: scale(1.1);
+}
+
+.btn-inicio-sesion {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px; /* Espacio arriba para separarlo de los botones anteriores */
+  transition: background-color 0.3s ease;
 }
