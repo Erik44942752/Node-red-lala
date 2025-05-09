@@ -10,3 +10,5 @@ function validarInicioSesion() {
         window.location.href = 'pagina_principal.html';  // Aquí colocas la ruta correcta a tu página principal
     }
 }
+
+//hola mundo
