@@ -8,8 +8,8 @@ body {
     
     /* Acá hacemos dos imágenes como fondo */
     background: 
-    url('./mapadecalor-paginaprincial.jpg') left center / 50% 100% no-repeat,
-    url('./basededatos-paginaprincipal.jpg') right center / 50% 100% no-repeat;
+    url('./pagina-principal/mapadecalor-paginaprincial.jpg') left center / 50% 100% no-repeat,
+    url('./pagina-principal/basededatos-paginaprincipal.jpg') right center / 50% 100% no-repeat;
 
     
     color: var(--foreground);
